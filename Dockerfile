@@ -24,3 +24,5 @@ RUN		apk add --no-cache --update \
 		mtr \
 		tcpdump \
 		busybox-extras
+
+CMD exec /bin/bash
