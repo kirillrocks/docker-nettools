@@ -25,4 +25,4 @@ RUN		apk add --no-cache --update \
 		tcpdump \
 		busybox-extras
 
-CMD exec /bin/bash
+ENTRYPOINT [ "sh", "-c", "echo $HOME" ]
